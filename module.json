@@ -1,0 +1,62 @@
+{
+  "id": "deuses-de-arton-cdm",
+  "title": "Deuses de Arton — CDM",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "v12.331"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "tormenta20",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Magoris",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "ameacas",
+      "label": "Ameaças",
+      "path": "packs/ameacas",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "tormenta20",
+      "flags": {}
+    },
+    {
+      "name": "item",
+      "label": "Item",
+      "path": "packs/item",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "tormenta20",
+      "flags": {}
+    },
+    {
+      "name": "journal",
+      "label": "Journal",
+      "path": "packs/journal",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "tormenta20",
+      "flags": {}
+    }
+  ]
+}
