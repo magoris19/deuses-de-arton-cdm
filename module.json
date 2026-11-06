@@ -3,7 +3,7 @@
   "type": "module",
   "title": "Deuses de Arton — CDM",
   "description": "Compêndios de Deuses de Arton para Tormenta20 no Foundry VTT.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "authors": [
     {
       "name": "Magoris"
@@ -68,5 +68,5 @@
   "url": "https://github.com/magoris19/deuses-de-arton-cdm",
   "readme": "https://github.com/magoris19/deuses-de-arton-cdm#readme",
   "manifest": "https://raw.githubusercontent.com/magoris19/deuses-de-arton-cdm/main/module.json",
-  "download": "https://github.com/magoris19/deuses-de-arton-cdm/archive/refs/tags/v0.1.0.zip"
+  "download": "https://github.com/magoris19/deuses-de-arton-cdm/archive/refs/tags/v0.1.1.zip"
 }
