@@ -1,26 +1,35 @@
 {
   "id": "deuses-de-arton-cdm",
+  "type": "module",
   "title": "Deuses de Arton — CDM",
+  "description": "Compêndios de Deuses de Arton para Tormenta20 no Foundry VTT.",
   "version": "0.1.0",
+  "authors": [
+    {
+      "name": "Magoris"
+    }
+  ],
   "compatibility": {
-    "minimum": "11",
-    "verified": "v12.331"
+    "minimum": "14.369"
   },
   "relationships": {
     "systems": [
       {
         "id": "tormenta20",
         "type": "system",
-        "compatibility": {}
+        "compatibility": {
+          "minimum": "1.6.6"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "cdm-icons",
+        "type": "module",
+        "manifest": "https://raw.githubusercontent.com/magoris19/cdm-icons/refs/heads/main/module.json"
       }
     ]
   },
-  "authors": [
-    {
-      "name": "Magoris",
-      "flags": {}
-    }
-  ],
   "packs": [
     {
       "name": "ameacas",
@@ -31,32 +40,33 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "system": "tormenta20",
-      "flags": {}
+      "system": "tormenta20"
     },
     {
       "name": "item",
-      "label": "Item",
+      "label": "Itens",
       "path": "packs/item",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "system": "tormenta20",
-      "flags": {}
+      "system": "tormenta20"
     },
     {
       "name": "journal",
-      "label": "Journal",
+      "label": "Diários",
       "path": "packs/journal",
       "type": "JournalEntry",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "system": "tormenta20",
-      "flags": {}
+      "system": "tormenta20"
     }
-  ]
+  ],
+  "url": "https://github.com/magoris19/deuses-de-arton-cdm",
+  "readme": "https://github.com/magoris19/deuses-de-arton-cdm#readme",
+  "manifest": "https://raw.githubusercontent.com/magoris19/deuses-de-arton-cdm/main/module.json",
+  "download": "https://github.com/magoris19/deuses-de-arton-cdm/releases/download/v0.1.0/deuses-de-arton-cdm.zip"
 }
